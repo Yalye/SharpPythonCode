@@ -17,9 +17,9 @@ print(isinstance(42, None | int))
 print(type(int))
 print(type(int | str))
 
-print(int | str == typing.Union[int, str])
-
-print(None | int == typing.Optional[int])
+# print(int | str == typing.Union[int, str])
+#
+# print(None | int == typing.Optional[int])
 
 class M(type):
     def __or__(self, other):
